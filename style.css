@@ -1,0 +1,201 @@
+body{
+    font: arial,heveltica, sans-serif;
+}
+#container {
+
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #a0a0a0;
+    height: 120px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 a{
+    font-size: 1.5em;
+    color: darkslategrey;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    
+}
+#title{
+    float: left;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0px; 
+}
+
+#searchBox {
+    width: 400px;
+    height: 50px;
+    background: radial-gradient(#78d5f5, #787ff6); 
+    float: right;
+    background: -webkit-radial-gradient(#78d5f5, #787ff6); 
+    float: right;
+    background: -o-radial-gradient(#78d5f5, #787ff6); 
+    float: right;
+    background: -moz-radial-gradient(#78d5f5, #787ff6); 
+    float: right;
+    padding: 15px 15px 0 15px;
+    margin-top: 20px;
+    
+}
+.submit{
+    float:right;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 50;
+    background: #3D3626;
+    font-size: 15px;
+    color: white;
+}
+.text {
+    float: left;
+    width = 200px;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    background: white url(images/search.png) no-repeat right center;
+    border: 1px solid #345abc;
+    
+}
+ 
+.clr {
+    clear: both;
+}
+#menu{
+    height: 80px;
+    background: linear-gradient(#aab6fb, #6096fd 10%,#031888 75%);
+    background: -webkit-linear-gradient(#aab6fb, #6096fd 10%,#031888 75%);
+    background: -o-linear-gradient(#aab6fb, #6096fd 10%,#031888 75%);
+    background: -moz-linear-gradient(#aab6fb, #6096fd 10%,#031888 75%);
+    padding: 30px 0px 0px 0px;
+}
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    border-right: 1px solid #fcf4f5;
+    
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fcf6f5;
+    line-height: 30px;
+    font-weight: bold;
+    -webkit-: transition: font-size 0.5s ease, font-weight 0.5s ease;
+    -o-: transition: font-size 0.5s ease, font-weight 0.5s ease;
+    -ms-: transition: font-size 0.5s ease, font-weight 0.5s ease;
+    -moz-: transition: font-size 0.5s ease, font-weight 0.5s ease;
+    transition: font-size 0.5s ease, font-weight 0.5s ease;
+    
+    
+            
+}
+
+#menu ul li a:hover{
+    font-weight: bolder;
+    font-size: 22px;
+    
+}
+ul{
+    list-style: none;
+}
+
+#introduction{
+    background: linear-gradient(#537895, #09203f);
+    background: -webkit-linear-gradient(#537895, #09203f);
+    background: -moz-linear-gradient(#537895, #09203f);
+    background: -o-linear-gradient(#537895, #09203f);
+    padding: 20px;
+    margin: 15px 0px;
+}
+#introduction h2{
+    font-size: 2.5em;
+    font-weight: normal;
+    color: aliceblue;
+    
+    
+}
+#introduction p{
+    font-size: 1.7em;
+    color: azure;
+    text-align: justify;
+}
+.sideBar {
+    height: 500px;
+    width: 420px;
+    border: 1px solid #426784;
+    border-radius: 15px;
+    padding: 10px 35px;
+}
+
+.sideBar h2{
+    color: darkslateblue;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace; 
+}
+
+.sideBar ul li a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: blueviolet;
+    -webkit-: transition: font-size 0.5s ease, font-weight 0.5s ease;
+    -o-: transition: font-size 0.5s ease, font-weight 0.5s ease, text-decoration 0.5s ease, color 05s ease;
+    -ms-: transition: font-size 0.5s ease, font-weight 0.5s ease, text-decoration 0.5s ease, color 05s ease;
+    -moz-: transition: font-size 0.5s ease, font-weight 0.5s ease, text-decoration 0.5s ease, color 05s ease;
+    transition: font-size 0.5s ease, font-weight 0.5s ease, text-decoration 0.5s ease, color 05s ease;
+}
+
+.sideBar ul li a:hover, .sideBar ul li a:active{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+#leftBar ul li{
+    padding: 6px 0px 6px 10px;
+    list-style-image: url(images/arrow.png);
+}
+.sideBar ul{
+    padding-top: 5px;
+}
+
+#rightBar ul li{
+    background: url(images/tick.png) no-repeat left center;
+    padding: 16px 0px 16px 40px;
+    
+}
+#leftBar{
+    float: left;
+}
+#rightBar{
+    float: right;
+}
+
+
+
+.footer p {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.footer{
+    height: 50px;
+    background: linear-gradient(#889911,#12ab45);
+    background: -webkit-linear-gradient(#889911,#12ab45);
+    background: -moz-linear-gradient(#889911,#12ab45);
+    background: -o-linear-gradient(#889911,#12ab45);
+    padding: 20px 10px;
+    margin-top: 7px;
+}
